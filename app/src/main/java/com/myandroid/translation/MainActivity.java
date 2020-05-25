@@ -22,16 +22,16 @@ import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText editText;
-    TextView resultText;
-    Button transBtn;
-    String get, message, result, translatedText;
-    Spinner spinner;
+    private EditText editText;
+    private TextView resultText;
+    private Button transBtn;
+    private String get, message, result, translatedText;
+    private Spinner spinner;
 
-    String clientID = "API KEY ID";
-    String clientSECRET = "API KEY";
+    private String clientID = "API KEY ID";
+    private String clientSECRET = "API KEY";
 
-    int pos;
+    private int pos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
